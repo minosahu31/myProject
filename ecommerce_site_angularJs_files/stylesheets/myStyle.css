@@ -1,0 +1,94 @@
+/*<!--Program for css styles of eccomerce site-->*/
+/*<!--Date: 20-05-2016 -->*/
+/*<!--Author: sahu-->*/
+
+body{
+  font-family: monospace, sans-serif;
+  font-size: 15px;
+  /*background-color: aliceblue;*/
+	/*background: -webkit-linear-gradient(left, #A1BDB8, #B3D0C6 90%);*/
+}
+.navbar{
+  border-radius: 0px;
+}
+.navbar-brand{
+  font-family: 'rancho';
+  font-size: 40px;
+  color:
+}
+.navbar-inverse .navbar-brand {
+    color: #F9F3F3;
+    text-shadow: .04em .04em 0 #184E49,.08em .08em 0 #aaa;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
+}
+/*Navbar*/
+.navbar-inverse {
+    background-color: #057964;
+    border-color: #057964;
+    padding: 10px 100px;
+}
+.subnav-bar{
+    border-radius: 0px;
+}
+img {
+    vertical-align: middle;
+    width: 350px;
+    height: 400px;
+    margin-left: 23px;
+    margin-top: 17px;
+}
+.carousel{
+    box-shadow: 11px 12px 14px #888888
+}
+h2{
+  text-decoration: underline;
+  color: #057964;
+}
+.about{
+  padding-top: 15px;
+}
+
+.contact,.about{
+  padding: 15px 0px;
+}
+form, p {
+    margin: 0 0 10px;
+    text-indent: 100px;
+    padding: 10px 0px;
+    line-height: 2;
+}
+.btn-custom{
+  background-color: #057964;
+  color:white;
+  padding: 11px 33px;
+  margin-left: 28%;
+  margin-top: 16px;
+}
+label{
+  display: inline;
+  padding: 10px 0;
+  color: #057964;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 41px;
+    margin: 5px 0;
+    margin-left: 18px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #057964;
+}
+.text-muted {
+  margin: 20px 0;
+  color: white;
+}
